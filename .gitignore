@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Benchmark data (download with `python -m vtv download`); split lists are versioned
+data/*
+!data/README.md
+!data/splits/
+!data/summary.json
+
+# Paid run artifacts and generated reports
+runs/
+reports/
+experiments/paper.json
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/

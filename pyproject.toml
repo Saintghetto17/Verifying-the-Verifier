@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verifying-the-verifier"
+version = "1.0.0"
+description = "Controlled-counterfactual benchmark for scientific figure verifiers (ICDM 2026 AI4S-Bench)"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+  {name = "Egor Gromov"}, {name = "Ilia Novitskii"}, {name = "Boris Malashenko"}, {name = "Kirill Mironov"},
+  {name = "Nikolay Gavrishok"}, {name = "Evgenii Rutkovskii"}, {name = "Valeria Efimova"},
+]
+dependencies = ["requests>=2.31,<3", "python-dotenv>=1.0,<2", "huggingface_hub>=0.23"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+vtv = "vtv.cli:main"
+
+[tool.setuptools]
+packages = ["vtv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

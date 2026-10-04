@@ -1,0 +1,19 @@
+{
+  "data_root": "data",
+  "main": {
+    "tg": ["runs/<ts>__tg_ml", "runs/<ts>__tg_bt", "runs/<ts>__tg_b75"],
+    "hd": ["runs/<ts>__hd_ml", "runs/<ts>__hd_bt", "runs/<ts>__hd_b75"]
+  },
+  "ablation": {
+    "v01": ["runs/<ts>__v01"], "v02": ["runs/<ts>__v02"], "v03": ["runs/<ts>__v03"],
+    "v04": ["runs/<ts>__v04"], "v05": ["runs/<ts>__v05"], "v07": ["runs/<ts>__v07"],
+    "v08": ["runs/<ts>__v08"], "v10": ["runs/<ts>__v10"], "v12": ["runs/<ts>__v12"],
+    "v13": ["runs/<ts>__hd_ml"]
+  },
+  "third": {
+    "split": "balanced100",
+    "candidates": {"v06": ["runs/<ts>__v06"], "v09": ["runs/<ts>__v09"], "v11": ["runs/<ts>__v11"]}
+  },
+  "halo": {"split": "balanced100", "config": "hd"},
+  "thresholds": {"split": "balanced100", "config": "hd"}
+}

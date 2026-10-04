@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated benchmark, please cite the paper as below."
+title: "Verifying the Verifier: A Controlled-Counterfactual Benchmark for Scientific Figure Evaluators"
+authors:
+  - family-names: Gromov
+    given-names: Egor
+  - family-names: Novitskii
+    given-names: Ilia
+  - family-names: Malashenko
+    given-names: Boris
+  - family-names: Mironov
+    given-names: Kirill
+  - family-names: Gavrishok
+    given-names: Nikolay
+  - family-names: Rutkovskii
+    given-names: Evgenii
+  - family-names: Efimova
+    given-names: Valeria
+repository-code: "https://github.com/Saintghetto17/Verifying-the-Verifier"
+repository-artifact: "https://huggingface.co/datasets/Saintghetto17/verifying-the-verifier"
+license: Apache-2.0
+keywords:
+  - VLM-as-judge
+  - controlled counterfactuals
+  - verifier meta-evaluation
+  - scientific figures
+  - AI for Science
+preferred-citation:
+  type: conference-paper
+  title: "Verifying the Verifier: A Controlled-Counterfactual Benchmark for Scientific Figure Evaluators"
+  authors:
+    - family-names: Gromov
+      given-names: Egor
+    - family-names: Novitskii
+      given-names: Ilia
+    - family-names: Malashenko
+      given-names: Boris
+    - family-names: Mironov
+      given-names: Kirill
+    - family-names: Gavrishok
+      given-names: Nikolay
+    - family-names: Rutkovskii
+      given-names: Evgenii
+    - family-names: Efimova
+      given-names: Valeria
+  year: 2026
+  collection-title: "ICDM 2026 Workshop AI4S-Bench 2026"

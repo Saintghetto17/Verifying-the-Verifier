@@ -1,0 +1,92 @@
+{
+  "description": "Prompt versions of the ablation (Table V) and the two primary configurations. TG = text-grounded (v03), HD = hypothesis-driven (v13). Versions 6, 9 and 11 are not listed in Table V; they are the three candidate third configurations of Table IV.",
+  "aliases": {
+    "tg": "v03",
+    "text_grounded": "v03",
+    "hd": "v13",
+    "hypothesis_driven": "v13",
+    "counting": "v06",
+    "self_verification": "v09",
+    "figure_type": "v11"
+  },
+  "versions": {
+    "v01": {
+      "file": "v01_entity_presence.md",
+      "mechanism": "entity presence only",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v02": {
+      "file": "v02_presence_not_sufficient.md",
+      "mechanism": "presence does not satisfy",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v03": {
+      "file": "v03_text_grounded.md",
+      "mechanism": "scrutiny plus no inference",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v04": {
+      "file": "v04_internal_consistency.md",
+      "mechanism": "internal-consistency checks",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v05": {
+      "file": "v05_nonfalsifiable_checks.md",
+      "mechanism": "two non-falsifiable checks",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v06": {
+      "file": "v06_counting.md",
+      "mechanism": "counting of quantified items (third-configuration candidate)",
+      "family": "third_candidate",
+      "hypotheses": 0
+    },
+    "v07": {
+      "file": "v07_requirements_first.md",
+      "mechanism": "requirements before viewing",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v08": {
+      "file": "v08_panel_grid.md",
+      "mechanism": "panel-grid checks",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v09": {
+      "file": "v09_self_verification.md",
+      "mechanism": "self-verification of accusations (third-configuration candidate)",
+      "family": "third_candidate",
+      "hypotheses": 8
+    },
+    "v10": {
+      "file": "v10_worked_example.md",
+      "mechanism": "one worked example",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v11": {
+      "file": "v11_figure_type.md",
+      "mechanism": "figure-type dependent checks (third-configuration candidate)",
+      "family": "third_candidate",
+      "hypotheses": 0
+    },
+    "v12": {
+      "file": "v12_reconstruction.md",
+      "mechanism": "three-step reconstruction",
+      "family": "text_grounded",
+      "hypotheses": 0
+    },
+    "v13": {
+      "file": "v13_hypothesis_driven.md",
+      "mechanism": "eight corruption hypotheses",
+      "family": "hypothesis_driven",
+      "hypotheses": 8
+    }
+  }
+}

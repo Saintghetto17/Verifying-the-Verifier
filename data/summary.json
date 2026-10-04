@@ -1,0 +1,148 @@
+{
+ "pairs": {
+  "bt": 212,
+  "ml": 201,
+  "b75": 75
+ },
+ "paired_run": {
+  "bt": 208,
+  "ml": 201,
+  "b75": 15
+ },
+ "images_available": {
+  "bt": 212,
+  "ml": 201,
+  "b75": 15
+ },
+ "ml_candidate_filters": {
+  "selected": 201,
+  "approximate_manual_review": 34,
+  "marked_but_byte_identical": 5,
+  "text_block_under_40_words": 4,
+  "caption_under_5_words": 1
+ },
+ "ml_operators": {
+  "label_text_edit": 64,
+  "element_deletion": 45,
+  "block_permutation": 42,
+  "geometric_distortion": 19,
+  "content_replacement": 13,
+  "edge_rewiring": 10,
+  "element_addition": 8,
+  "generic_edit": 6,
+  "restyling": 6,
+  "value_fabrication": 5
+ },
+ "ml_source_labels": {},
+ "ml_topics": {
+  "machine_learning": 201
+ },
+ "bt_operators": {
+  "label_text_edit": 82,
+  "value_fabrication": 37,
+  "element_deletion": 32,
+  "geometric_distortion": 31,
+  "block_permutation": 22,
+  "restyling": 20,
+  "edge_rewiring": 16,
+  "content_replacement": 13,
+  "element_addition": 5
+ },
+ "bt_source_labels": {
+  "labels changed": 61,
+  "element deleted": 32,
+  "numeric values changed": 30,
+  "elements swapped or reordered": 22,
+  "image distorted": 21,
+  "colours changed": 17,
+  "arrows changed": 16,
+  "plot replaced with a different one": 13,
+  "axis labels changed": 10,
+  "image mirrored or rotated": 10,
+  "in-figure text/content changed": 10,
+  "formulas changed": 8,
+  "scale changed": 7,
+  "element added": 4,
+  "image quality degraded": 2,
+  "units changed": 2,
+  "figure duplicated": 1,
+  "texture changed": 1
+ },
+ "bt_topics": {
+  "microbiology_antimicrobial": 29,
+  "cancer_molecular_medicine": 25,
+  "enzymes_biocatalysis": 25,
+  "biomaterials_tissue_engineering": 17,
+  "plant_agri_biotech": 16,
+  "recombinant_protein_cloning": 15,
+  "fermentation_bioprocess": 12,
+  "unclassified": 12,
+  "nanoparticles_nanomaterials": 10,
+  "omics_bioinformatics": 10,
+  "virology_vaccines_vectors": 9,
+  "environmental_waste_valorization": 8,
+  "genome_editing": 8,
+  "diagnostics_assays": 6,
+  "drug_delivery_formulation": 5,
+  "ml_ai_modeling": 5
+ },
+ "b75_operators": {
+  "label_text_edit": 36,
+  "element_deletion": 31,
+  "block_permutation": 8,
+  "content_replacement": 8,
+  "geometric_distortion": 2,
+  "restyling": 2,
+  "value_fabrication": 2
+ },
+ "b75_source_labels": {
+  "elements deleted": 27,
+  "labels changed": 26,
+  "labels replaced with nonsense": 23,
+  "elements swapped": 8,
+  "content replaced": 7,
+  "content replaced from another figure": 6,
+  "element occluded": 4,
+  "colours changed": 2,
+  "formulas changed": 1,
+  "image distorted": 1,
+  "image mirrored or rotated": 1,
+  "in-figure text changed": 1,
+  "legend changed": 1,
+  "numeric values changed": 1,
+  "scale changed": 1,
+  "units changed": 1
+ },
+ "b75_topics": {
+  "climate_modeling": 22,
+  "materials_discovery": 18,
+  "drug_discovery": 14,
+  "protein_structure_prediction": 14,
+  "earth_system_science": 7
+ },
+ "ml_objects": {
+  "labels": 77,
+  "blocks": 70,
+  "images": 62,
+  "plots": 35,
+  "arrows": 21,
+  "axes": 7
+ },
+ "ml_text_block_source": {
+  "mentions": 134,
+  "same_page_context": 35,
+  "mentions+same_page_context": 32
+ },
+ "b75_figure_types": {
+  "plot": 23,
+  "map": 14,
+  "other": 11,
+  "flow": 9,
+  "structure": 9,
+  "table": 6,
+  "embedding": 2,
+  "text_panel": 1
+ },
+ "b75_multipanel": 29,
+ "b75_mean_entities": 7.27
+}

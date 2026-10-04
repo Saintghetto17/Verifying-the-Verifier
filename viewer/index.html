@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verifier Run Viewer</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <p class="eyebrow">VERIFYING THE VERIFIER</p>
+        <h1>Run viewer</h1>
+      </div>
+      <label>Run <select id="run-select"><option>Loading…</option></select></label>
+    </header>
+    <main>
+      <section id="run-summary" class="summary"></section>
+      <section class="workspace">
+        <aside>
+          <label>Filter by id <input id="pair-filter" type="search" placeholder="ml/document_1__figure_2"></label>
+          <label>Outcome <select id="outcome-filter"><option value="">All</option><option value="win">win</option><option value="tie">tie</option><option value="inversion">inversion</option><option value="incomplete">incomplete</option></select></label>
+          <div id="pair-list" class="pair-list"></div>
+        </aside>
+        <section id="detail" class="detail"><p class="muted">Select a pair on the left.</p></section>
+      </section>
+    </main>
+    <template id="pair-template">
+      <button class="pair-item" type="button"><strong></strong><span></span></button>
+    </template>
+    <script src="/app.js"></script>
+  </body>
+</html>
